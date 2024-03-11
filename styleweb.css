@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 25px;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+}
+/* header */
+.promo{
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    margin-bottom: -1rem;
+}
+.promo li{
+    display: inline;
+}
+.promo ul li:first-child{
+    color: #fff;
+}
+.green{
+    color: #83bc2e;
+}
+#green{
+    color: #83bc2e;
+}
+.red{
+    color: red;
+}
+.promo ul li i{
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* navigation bar */
+nav{
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+nav li{
+    display: inline-flex;
+}
+#nav-center{
+    color: #333;
+    font-weight: bold;
+}
+#nav-center:hover{
+    color: #83bc2e;
+    transition: 0.3s;
+}
+#nav-active{
+    color: #83bc2e;
+    font-weight: bold;
+}
+
+.logo{
+    max-width: 137px;
+}
+nav li:first-child{
+    float: left;
+}
+nav li:nth-last-child(-n+4){
+    float: right;
+}
+#nav-icons{
+    padding-left: 2rem;
+    margin-top: 0.5rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+#nav-icons:hover{
+    color: #83bc2e;
+    transition: 0.3s;
+}
+nav li:nth-last-child(4){
+    margin-top: -4px;
+    font-size: 18px;
+}
+/* responsive nav bar */
+.resp-menu{
+    display: none;
+}
+/* carousal */
+#slider-size{
+    position: relative;
+}
+#slide-text{
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    width: 20%;
+    color: #333;
+}
+#slide-text h1{
+    margin-bottom: 2rem;
+}
+.read-more{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+}
+.read-more:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #83bc2e;
+    transition: 0.3s;
+}
+
+/* img banner */
+.banner{
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+}
+.img-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.img-container div{
+    position: relative;
+    width: 30%;
+    height: 0%;
+}
+.img-container div img{
+    width: 100%;
+    
+}
+.banner-txt{
+    color: #fff;
+    position: absolute;
+    left: 8%;
+    margin-top: -12rem;
+}
+.banner-txt a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.banner-txt a:hover{
+    color: #000;
+    transition: 0.3s;
+}
+
+/* Category */
+.category{
+    margin-top: 9rem;
+    
+}
+.category h1{
+    font-family: Great Vibes;
+    color: #83bc2e;
+    text-align: center;
+}
+.category p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 750;
+}
+.bg-logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.category-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+.category-container div{
+    width: 11%;
+    text-align: center;
+}
+.category-container div img{
+    width: 100%;
+}
+.category-container div a{
+    width: 100%;
+   color: #333;
+   font-size: 18px;
+   font-weight: 700;
+}
+.category-container div a:hover{
+    text-decoration: none;
+    color: #83bc2e;
+    transition: 0.3s;
+}
+
+/* our services */
+
+.service-container{
+    background-color: #83bc2e;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container-box{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.service-icon{
+    font-size: 40px;
+    padding-top: 0.25rem;
+    color: #fff;
+}
+.service-icon i{
+    color: #fff;
+}
+.service-text{
+    padding-left: 1rem;
+    color: #fff;
+}
+.service-text h6{
+    font-weight: 700;
+}
+.service-text p{
+    font-weight: lighter;
+}
+
+/* Arrivals */
+.arrivals{
+    margin-bottom: 4rem;
+}
+.arrival-text{
+    margin-bottom: 2rem;
+}
+.arrival-text h1{
+    font-family: Great Vibes;
+    color: #83bc2e;
+    text-align: center;
+}
+.arrival-text p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 750;
+}
+.arrival-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#card{
+    width: 18rem;
+    margin-bottom: 2rem;
+}
+#card-text{
+    text-align: center;
+}
+#card:hover #card-img{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.prod-link1{
+    color: #333;
+    font-weight: 700;
+}
+.prod-link1:hover{
+    text-decoration: none;
+    color: #83bc2e;
+    transition: 0.3s;
+}
+.prod-link2{
+    color: #777;
+}
+.prod-link2:hover{
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+}
+#card-text span{
+    color: #83bc2e;
+    font-size: 16px;
+    font-weight: 700;
+}
+.old-rate{
+    color: #777 !important;
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    text-decoration: line-through;
+}
+#sale{
+    color: #fff !important;
+    background-color: red;
+}
+/* limited time offer */
+.limited-offer{
+    margin-bottom: 4rem;
+}
+#bg-image-offer{
+    width: 100%;
+    position: relative;
+}
+.card-img-overlay{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+}
+.card-title{
+    font-family: Great Vibes;
+}
+.card-title2{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: -1rem;
+}
+.card-text{
+    font-size: 20px;
+}
+.timer {
+    display: flex;
+    text-align: center;
+  }
+.countdown-container span{
+    color: #fff;
+}
+.time {
+    font-weight: bold;
+    padding: 1rem 1.5rem;
+    font-size: 24px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+  }
+.limited-link{
+    color: #333;
+    font-weight: 700;
+    border: 1px solid #fff;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    background-color: #fff;
+}
+.limited-link:hover{
+    text-decoration: none;
+    color: #fff;
+    border-color: #83bc2e;
+    background-color: #83bc2e;
+    transition: 0.3s;
+}
+
+/* testimonals */
+.testimonals{
+    margin-bottom: 8rem;
+}
+.testimonal-text{
+    margin-bottom: 2rem;
+}
+.testimonal-text h1{
+    font-family: Great Vibes;
+    color: #83bc2e;
+    text-align: center;
+}
+.testimonal-text p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 750;
+}
+.testimonal-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.testimonal-img{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+#user{
+    width: 45%;
+}
+.card-body{
+    width: 100%;
+    margin-left: -10%;
+}
+.card-title3{
+    color: orange;
+}
+.card-text{
+    font-size: 14px;
+}
+
+/* Our products */
+.our-products{
+    margin-bottom: 8rem;
+}
+.prod-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.prod-text{
+    margin-bottom: 2rem;
+}
+.prod-text h1{
+    font-family: Great Vibes;
+    color: #83bc2e;
+    text-align: center;
+}
+.prod-text p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 750;
+}
+.prod-nav{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.prod-nav li{
+    display: inline;
+    margin: 0 1rem;
+}
+.prod-nav li a{
+    color: #333;
+    font-weight: 700;
+}
+.prod-nav li a:hover{
+    color: #83bc2e;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.prod-active{
+    color: #83bc2e !important;
+    border-bottom: 2px solid #83bc2e;
+    padding-bottom: 3px;
+}
+
+/* our blog */
+.our-blog{
+    margin-bottom: 4rem;
+}
+.blog-text{
+    margin-bottom: 2rem;
+}
+.blog-text h1{
+    font-family: Great Vibes;
+    color: #83bc2e;
+    text-align: center;
+}
+.blog-text p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 750;
+}
+.blog-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#card2{
+    width: 30%;
+    margin-bottom: 2rem;
+}
+#card2-img{
+    width: 18rem;
+}
+.card-title4{
+    margin-left: 1rem;
+}
+#card2-text{
+    margin-left: 2rem;
+}
+
+/* footer */
+footer{
+    background-color:#1d1d1d;
+    color: #7A7A7A;
+}
+.foot-container{
+    padding-top: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.signup h5{
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.signup p{
+    padding-bottom: 1rem;
+}
+.signup input{
+    outline: none;
+    border: 1px solid #fff;
+    background-color: #1d1d1d;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 0.5rem 4rem;
+    color: #fff;
+}
+.signup button{
+    outline: none;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: -5px;
+    border: 1px solid #fff;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+}
+.signup button:hover{
+    background-color: #83bc2e;
+    border-color: #83bc2e;
+    color: #fff;
+    transition: 0.3s;
+}
+.aboutus h6{
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.aboutus i{
+    padding-right: 1rem;
+    color: #fff;
+}
+.extra h6{
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.extra a{
+    color: #7A7A7A;
+}
+.extra a:hover{
+    color: #fff;
+    transition: 0.3s;
+}
+.info h6{
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.info a{
+    color: #7A7A7A;
+}
+.info a:hover{
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* copyright and media links */
+.foot-tail{
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+.foot-tail li{
+    display: inline-flex;
+}
+.foot-tail li:first-child{
+    margin-left: 2.5rem;
+}
+.foot-tail li:last-child{
+    float: right;
+    margin-right: 3rem;
+}
+.foot-tail li i{
+    border: 1px solid #777;
+    color: #7A7A7A;
+    padding: 0.7rem;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.1);
+}
+.foot-tail li i:hover{
+    background-color: #fff;
+    color: #333;
+    border-color: #000;
+    transition: 0.3s;
+}
+.foot-tail li p{
+    color: #fff;
+}
+.foot-left{
+    float: left;
+    margin: 0 0.5rem;
+    margin-top: -10px;
+}
+.fa-facebook:hover{
+    color: #3b5998 !important;
+}
+.fa-twitter:hover{
+    color: #00acee !important;
+}
+
+.fa-google:hover{
+    color: #DB4437 !important;
+}
+
+.fa-instagram:hover{
+    color: #bc2a8d !important;
+}
+
