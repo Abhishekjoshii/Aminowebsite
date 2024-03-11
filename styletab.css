@@ -1,0 +1,63 @@
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  #slide-text{
+    left: 15%;
+    top: 20%;
+    width: 30%;
+    }
+  nav li:nth-last-child(4){
+    margin-right: 35%;
+  }
+  .card-img{
+    height: 40rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .card-body{
+    width: 90%;
+    margin-left: 2rem;
+  }
+  #card2-text{
+    margin-left: -2rem;
+    margin-right:  0rem;
+  }
+  #user{
+    width: 44%;
+  }
+  .foot-container{
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .signup{
+    width: 50%;
+    padding-bottom: 2rem;
+  }
+  .signup input{
+    padding: 0.5rem 2rem;
+  }
+  .signup button{
+    padding: 0.5rem 0.5rem;
+  }
+  .aboutus{
+    width: 50%;
+    padding-bottom: 2rem;
+  }
+  .extra{
+    width: 50%;
+  }
+  .info{
+    width: 50%;
+  }
+  .foot-tail li:first-child{
+    margin-left: 0rem;
+  }
+  .foot-tail li:last-child{
+    margin-right: 0rem;
+  }
+  .foot-left{
+    margin-top: -10px;
+  }
+  }
