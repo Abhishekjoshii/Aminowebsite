@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>             
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Amino-WEBSITE</title>
+   
+    <script
+    src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous"></script>   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/de4db73036.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styleweb.css">
+    <link rel="stylesheet" href="stylemob.css">
+    <link rel="stylesheet" href="styletab.css">
+    
+</head>
+<body>
+    <header>
+        <div class="promo">
+            <ul>
+                <li>Up to 50% off <span class="green">Spring Sale</span>  For now & later from <span class="red">$7.99</span></li>
+                <li><i class="bi bi-x-circle" id="exit"></i></li>
+            </ul>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"><img src="img/logo_amino.png" alt="logo" class="logo"></a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="nav-active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                      HOMEPAGE
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">HOMEPAGE1</a>
+                      <a class="dropdown-item" href="#">HOMEPAGE2</a>
+                    </div>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="nav-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                      SHOP
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">SHOP1</a>
+                      <a class="dropdown-item" href="#">SHOP2</a>
+                    </div>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="nav-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                      PRODUCT
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">PRODUCT1</a>
+                      <a class="dropdown-item" href="#">PRODUCT2</a>
+                    </div>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="nav-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                      PAGES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">PAGE1</a>
+                      <a class="dropdown-item" href="#">PAGE2</a>
+                    </div>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="nav-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                      BLOG
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">BLOG1</a>
+                      <a class="dropdown-item" href="#">BLOG2</a>
+                    </div>
+                  </li>
+
+                    <li><i class="bi bi-basket2" id="nav-icons"></i></li>
+                    <li><i class="fa-regular fa-heart" id="nav-icons"></i></li>
+                    <li><i class="fa-solid fa-user" id="nav-icons"></i></li>
+                    <li><i class="fa-solid fa-magnifying-glass" id="nav-icons"></i></li> 
+            </ul>
+        </nav>
+        <!-- nav bar for responsive -->
+        <div class="resp-menu">
+            <h4>MENU</h4>
+            <i class="fa-solid fa-bars" id="nav-icon1"></i>
+            <i class="fa-solid fa-xmark" id="nav-icon2"></i>
+            <div class="nav-slide">
+                <ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="nav-center2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                          HOMEPAGE
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">HOMEPAGE1</a>
+                          <a class="dropdown-item" href="#">HOMEPAGE2</a>
+                        </div>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="nav-center2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                          SHOP
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">SHOP1</a>
+                          <a class="dropdown-item" href="#">SHOP2</a>
+                        </div>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="nav-center2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                          PRODUCT
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">PRODUCT1</a>
+                          <a class="dropdown-item" href="#">PRODUCT2</a>
+                        </div>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="nav-center2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                          PAGES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">PAGE1</a>
+                          <a class="dropdown-item" href="#">PAGE2</a>
+                        </div>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="nav-center2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                          BLOG
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">BLOG1</a>
+                          <a class="dropdown-item" href="#">BLOG2</a>
+                        </div>
+                      </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <section class="slider">
+      <div id="carouselExampleCaptions" class="carousel slide" class="slider-size" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active" id="slider-size">
+              <img src="img/slider1-1.jpg" class="d-block w-100" alt="slide1">
+              <div class="carousel-caption d-none d-md-block" id="slide-text">
+                <h1>DRY FRUITS<br>UP TO 75 OFF%</h1>
+                <a href="#" class="read-more">SHOP NOW</a>
+              </div>
+            </div>
+            <div class="carousel-item" id="slider-size"> 
+              <img src="img/slider1-2.jpg" class="d-block w-100" alt="slide2">
+              <div class="carousel-caption d-none d-md-block" id="slide-text">
+                <h1>ORGANIC<br>ICED TEA</h1>
+                <a href="#" class="read-more">SHOP NOW</a>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button>
+        </div>
+    </section>
+    
+    <section class="banner">
+      <div class="img-container">
+          <div>
+              <img src="img/img-banner1-1.jpg" alt="img1">
+              <div class="banner-txt">
+                  <h3>Orange Juice<br>Natural</h3>
+                  <a href="#">SHOP NOW</a>
+              </div>
+          </div>
+          <div>
+              <img src="img/img-banner1-2.jpg" alt="img2">
+              <div class="banner-txt">
+                  <h3>Amla Candy &<br>Murabba</h3>
+                  <a href="#">SHOP NOW</a>
+              </div>
+          </div>
+          <div>
+              <img src="img/img-banner1-3.jpg" alt="img3">
+              <div class="banner-txt">
+                  <h3>Jam Maj<br>Spring Sale</h3>
+                  <a href="#">SHOP NOW</a>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="category">
+      <h1>Shop By Category</h1>
+      <p>FEATURED CATEGORY</p>
+      <img src="img/bg-title.png" alt="----------" class="bg-logo">
+      <div class="category-container">
+        <div>
+          <img src="img/img-cate1.png" alt="category1"><br><br>
+          <a href="#">Fruits</a>
+        </div>
+        <div>
+          <img src="img/img-cate2.png" alt="category2"><br><br>
+          <a href="#">Flour</a>
+        </div>
+        <div>
+          <img src="img/img-cate3.png" alt="category3"><br><br>
+          <a href="#">Vegetables</a>
+        </div>
+        <div>
+          <img src="img/img-cate4.png" alt="category4"><br><br>
+          <a href="#">Meat</a>
+        </div>
+        <div>
+          <img src="img/img-cate5.png" alt="category5"><br><br>
+          <a href="#">Flavoured Milk</a>
+        </div>
+        <div>
+          <img src="img/img-cate6.png" alt="category6"><br><br>
+          <a href="#">Jam</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-services">
+      <div class="service-container">
+        
+        <div class="container-box">
+          <div class="service-icon">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+          <div class="service-text">
+            <h6>Free Shipping</h6>
+            <p>On all orders over $75.00</p>
+          </div>
+        </div>
+        
+        <div class="container-box">
+          <div class="service-icon">
+            <i><span><img src="img/image.png"></span></i>
+          </div>
+          <div class="service-text">
+            <h6>Free Return</h6>
+            <p>Returns are free within 9 days</p>
+          </div>
+        </div>
+
+        <div class="container-box">
+          <div class="service-icon">
+            <i class="fas fa-headset"></i>
+          </div>
+          <div class="service-text">
+            <h6>Support 24/7</h6>
+            <p>Contact us 24 hours a day</p>
+          </div>
+        </div>
+
+        <div class="container-box">
+          <div class="service-icon">
+            <i class="bi bi-shield-fill-check"></i>
+          </div>
+          <div class="service-text">
+            <h6>100% Payment Secure</h6>
+            <p>Your payment are safe with us</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="arrivals">
+      <div class="arrival-text">
+        <h1>See Our Latest</h1>
+        <p>NEW ARRIVALS</p>
+        <img src="img/bg-title.png" alt="----------" class="bg-logo">
+      </div>
+      <div class="arrival-container">
+        <div class="card" id="card">
+          <img src="img/product 1.jpg" class="card-img-top" id="card-img" alt="product1">
+          <div class="card-body">
+            <p class="card-text" id="card-text">
+              <a href="#" class="prod-link1">Fresh Apple 1Kg</a><br>
+              <a href="#" class="prod-link2">Shop</a><br>
+              <span>$4.00-$40.00</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <img src="img/product 2.jpg" class="card-img-top" id="card-img" alt="product2">
+          <div class="card-body">
+            <p class="card-text" id="card-text">
+              <span class="badge badge-secondary" id="sale">Sale</span>
+              <a href="#" class="prod-link1"> Fresh Avocado 1Kg</a><br>
+              <a href="#" class="prod-link2">Shop</a><br>
+              <span class="old-rate">$68.00</span><span> $60.00</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <img src="img/product 3.jpg" class="card-img-top" id="card-img" alt="product3">
+          <div class="card-body">
+            <p class="card-text" id="card-text">
+              <a href="#" class="prod-link1">Macadamia Nuts</a><br>
+              <a href="#" class="prod-link2">Shop</a><br>
+              <span>$25.00-$80.00</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <img src="img/product 4.jpg" class="card-img-top" id="card-img" alt="product4">
+          <div class="card-body">
+            <p class="card-text" id="card-text">
+              <a href="#" class="prod-link1">Fresh Organic Tomato</a><br>
+              <a href="#" class="prod-link2">Shop</a><br>
+              <span>$7.00-$75.00</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <img src="img/product 5.jpg" class="card-img-top" id="card-img" alt="product5">
+          <div class="card-body">
+            <p class="card-text" id="card-text">
+              <a href="#" class="prod-link1">Fresh Strawberry 1Kg</a><br>
+              <a href="#" class="prod-link2">Shop</a><br>
+              <span>$2.00-$20.00</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <img src="img/product 6.jpg" class="card-img-top" id="card-img" alt="product6">
+          <div class="card-body">
+            <p class="card-text" id="card-text">
+              <a href="#" class="prod-link1">Fresh Mango 1Kg</a><br>
+              <a href="#" class="prod-link2">Shop</a><br>
+              <span>$10.00-$35.00</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <img src="img/product 7.jpg" class="card-img-top" id="card-img" alt="product7">
+          <div class="card-body">
+            <p class="card-text" id="card-text">
+              <a href="#" class="prod-link1">Wild Pecan Nuts</a><br>
+              <a href="#" class="prod-link2">Shop</a><br>
+              <span>$6.00-$25.00</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <img src="img/product 8.jpg" class="card-img-top" id="card-img" alt="product8">
+          <div class="card-body">
+            <p class="card-text" id="card-text">
+              <a href="#" class="prod-link1">Betteraves BIO</a><br>
+              <a href="#" class="prod-link2">Shop</a><br>
+              <span>$5.00-$20.00</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="limited-offer">
+      <div class="card bg-dark text-white" id="bg-image-offer">
+        <img src="img/limited-offer.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h1 class="card-title">Natural Product</h1>
+          <h1 class="card-title2">SAVE 40% OFF</h1>
+          <p class="card-text">Broccoli Roses, Alway Fresh And Delicious.<br>100% Organic</p>
+
+          <div class="timer">
+            <div class="countdown-container">
+                <div class="time hour">100</div>
+                <span class="text">Hours</span>
+            </div>
+            <div class="countdown-container">
+                <div class="time minute">100</div>
+                <span class="text">Minutes</span>
+            </div>
+            <div class="countdown-container">
+                <div class="time seconds">100</div>
+                <span class="text">Seconds</span>
+            </div>
+        </div>
+        <br>
+        <a href="#" class="limited-link">SHOP NOW</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonals">
+      <div class="testimonal-text">
+        <h1>My Choosee Us</h1>
+        <p>WHY PEOPLE LOVE AMINO</p>
+        <img src="img/bg-title.png" alt="----------" class="bg-logo">
+      </div>
+      <div class="testimonal-container">
+        <div class="card mb-3" id="user">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/ttm_1.png" alt="testimonal1" class="testimonal-img">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </h5>
+                <p class="card-text">Having produced delivery to your home or office on a set frequency is essential to obtaining the recommended daily servings of fruits and vegetables.</p>
+                <p class="card-text"><small class="text-muted">Sandy Wilckie</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3" id="user">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/ttm_2.png" alt="testimonal2" class="testimonal-img">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </h5>
+                <p class="card-text">Each delivery comes with the option to view and make changes to the items in your delivery. Also use your Never Send List to omit items you don't want.</p>
+                <p class="card-text"><small class="text-muted">Marcosinacioluz</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-products">
+      <div class="prod-text">
+        <h1>See Our Latest</h1>
+        <p>OUR PRODUCTS</p>
+        <img src="img/bg-title.png" alt="----------" class="bg-logo">
+      </div>
+      <div class="prod-nav">
+        <ul>
+          <li><a href="#" class="prod-active">FRUITS</a></li>
+          <li><a href="#">FLOUR</a></li>
+          <li><a href="#">VEGETABLE</a></li>
+          <li><a href="#">MEAT</a></li>
+          <li><a href="#">MILK & EGG</a></li>
+          <li><a href="#">JAM</a></li>
+        </ul>
+      </div>
+      <div class="prod-container">
+        <div class="card" id="card">
+          <img src="img/our-prod 1.jpg" class="card-img-top" id="card-img" alt="our product-1">
+          <div class="card-body">
+            <p class="card-text" id="card-text">
+              <a href="#" class="prod-link1">Peanut Butter</a><br>
+              <a href="#" class="prod-link2">Shop</a><br>
+              <span>$8.00-$50.00</span>
+            </p>
+          </div>
+        </div>
+        
+        <div class="card" id="card">
+          <img src="img/our-prod 2.jpg" class="card-img-top" id="card-img" alt="our product-2">
+          <div class="card-body">
+            <p class="card-text" id="card-text">
+              <a href="#" class="prod-link1">Fine Cut Orange</a><br>
+              <a href="#" class="prod-link2">Shop</a><br>
+              <span>$10.00-$30.00</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <img src="img/our-prod 3.jpg" class="card-img-top" id="card-img" alt="our product-3">
+          <div class="card-body">
+            <p class="card-text" id="card-text">
+              <span class="badge badge-secondary" id="sale">Sale</span>
+              <a href="#" class="prod-link1"> Red Dreagon Fruit 300ml</a><br>
+              <a href="#" class="prod-link2">Shop</a><br>
+              <span class="old-rate">$20.00</span><span> $18.00</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <img src="img/our-prod 4.jpg" class="card-img-top" id="card-img" alt="our product-4">
+          <div class="card-body">
+            <p class="card-text" id="card-text">
+              <a href="#" class="prod-link1">Fresh Vegetable</a><br>
+              <a href="#" class="prod-link2">Shop</a><br>
+              <span>$2.00-$10.00</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-blog">
+      <div class="blog-text">
+        <h1>Read Our Blog</h1>
+        <p>LATEST NEWS</p>
+        <img src="img/bg-title.png" alt="----------" class="bg-logo">
+      </div>
+
+      <div class="blog-container">
+        <div class="card" id="card2">
+          <img src="img/post 1.jpg" class="card-img-top" id="card-img" alt="post1">
+          <br>
+          <h4 class="card-title4">Spring Dress Try -on Haul</h4>
+          <div class="card-body">
+            <p class="card-text" id="card2-text">
+              This is one of my favourite designers (has been for years!). Every detail in this dress(30%...
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">April 24 2021 <span class="green">by Admin</span></small>
+          </div>
+        </div>
+
+        <div class="card" id="card2">
+          <img src="img/post 2.jpg" class="card-img-top" id="card-img" alt="post2">
+          <br>
+          <h4 class="card-title4">Aliquam vel ante mattis</h4>
+          <div class="card-body">
+            <p class="card-text" id="card2-text">
+              Donec vitae hendrerit arcu ,sit amet faucibus nisl. cras prestium arcu ex, aenem posuere libreo eu augue  condimentum...
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">November 29 2021 <span class="green">by Admin</span></small>
+          </div>
+        </div>
+
+        <div class="card" id="card2">
+          <img src="img/post 3.jpg" class="card-img-top" id="card-img" alt="post3">
+          <br>
+          <h4 class="card-title4">Praesent imperdiet going</h4>
+          <div class="card-body">
+            <p class="card-text" id="card2-text">
+              Donec vitae hendrerit arcu ,sit amet faucibus nisl. cras prestium arcu ex, aenem posuere libreo eu augue  condimentum...
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">July 13 2021 <span class="green">by Admin</span></small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="foot-container">
+        <div class="signup">
+          <h5>LET'S KEEP IN TOUCH</h5>
+          <p>Sign up for our e-mail to get latest news.</p>
+          <form>
+            <input type="email" placeholder="Ener your email address..." required>
+            <button type="submit">SIGN UP</button>
+          </form>
+        </div>
+        <div class="aboutus">
+          <h6>ABOUT US</h6>
+          <p>M-F 9am-5pm EST</p>
+          <p><i class="bi bi-geo-alt"></i>Fox Mountain Rd, South Fork, CO 81154, USA</p>
+          <p><i class="bi bi-telephone"></i>+0123.456.8386</p>
+          <p><i class="fa-regular fa-envelope"></i>support@posthemes.com</p>
+        </div>
+        <div class="extra">
+          <h6>EXTRAS</h6>
+          <p><a href="#">Whishlist</a></p>
+          <p> <a href="#">Contact us</a></p>
+          <p><a href="#">My account</a></p>
+        </div>
+        <div class="info">
+          <h6>INFORMATION</h6>
+          <p><a href="#">About us</a></p>
+          <p><a href="#">Contact us</a></p>
+          <p><a href="#">Support Center</a></p>
+          <p><a href="#">Customer Support</a></p>
+        </div>
+      </div>
+      <div class="foot-tail">
+        <ul>
+          <li class="foot-left"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li class="foot-left"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li class="foot-left"><a href="#"><i class="fa-brands fa-google"></i></a></li>
+          <li class="foot-left"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><p>Copyright by Mohd YASSER. All Rights Reserved.</p></li>
+          <li><img src="img/img-payment.png" alt="payment methods"></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- my js file -->
+    <script src="script.js"></script>
+</body>
+</html> 
